@@ -1,5 +1,6 @@
 # FileComparison
 Tools are available to compare different file types. The goal is to try to create a tool that can compare two files and give important insights from the data.
+
 **Command line tools:**
 1. diff (Linux/macOS): Compares line-by-line differences between text files.
 Usage: diff file1.txt file2.txt
