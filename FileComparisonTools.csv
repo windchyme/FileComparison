@@ -1,0 +1,12 @@
+Tool Name,Requirements,Supported Input Formats,Comparison Method,Output,Advantages,Limitations
+diff,,Any format that can be opened in a text,Line-by-line comparison,Outputs the differences across both files,"1. In-built Linux tool
+2. Outputs only the differences
+3. Can be customized to give a side-by-side comparison",Can only be used for 2 files
+vimdiff,Vim editor,,Line-by-line comparison,"Displays files side-by-side in the Vim text editor, with highlighted differences between the files","1. Supports up to 4 files
+2. Files can be edited while viewing their differences","1. Requires vim to be installed in the system
+2. Output can not be written to file"
+sdiff,,Any format that can be opened in a text,Line-by-line comparison,,"1. Command line utility
+2. Outputs a side-by-side comparison of both the files",
+cmp,,Any file type (binary or text),Byte-by-byte comparison,First difference (byte & line),1. Can detect binary differences,1. Output does not tell us what change/difference is observed in the files
+md5sum,,Any file type,Generates a checksum (hash value) for a file,,"1. Useful in verifying file integrity or detecting if files have been altered or corrupted
+2. Compare large files efficiently without examining them byte-by-byte  ","1. Useful for simple integrity checks, but not for content comparison"
